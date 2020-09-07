@@ -1,0 +1,27 @@
+body {
+    background-color:#444;
+    margin:0;
+    font-family:Nunito, sans-serif;
+    color:white;
+    font-weight:200;
+}
+
+.main-hero-image {
+    background:url('background.jpeg');
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+    margin-top:-20px;
+    font-weight:100;
+}
+
+h1 {
+    font-weight:300;
+    text-align:center;
+    line-height:80vh;
+    font-size:10vw;
+}
+
+.github {
+    background:url('github.png')
+}
