@@ -6,33 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page not found</title>
     <!--css-->
-    <link rel="stylesheet" type="text/css" href="src/static/css/style.css"
+    <style>
+
+        @import url(https://bit.ly/33xGQbs);
+        h3 {
+            font-weight: 150;
+            text-align: center;
+            font-size:80px;
+            margin-top:-40px;
+        }
+
+        h1 {
+            font-size:150px;
+            text-align: center;
+            margin:0;
+            padding:0;
+        }
+
+        a {
+            background:none;
+            border:none;
+            color:white;
+            text-transform:lowercase;
+            font-weight:600;
+            font-family:Source Sans Pro, sans-serif;
+            font-size:30px;
+            transition:all 0.1s;
+            position:static;
+            margin-left:35%;
+        }
+
+        a:hover {
+            transform:skew(-10deg) scale(1.05);
+        }
+
+        a:active {
+            color:lightblue;
+            text-decoration:none;
+            transform:scale(0.96) skew(-10deg)
+        }
+        
+        body{
+            background-color:rgb(151, 159, 165);
+            font-family:Source Sans Pro, sans-serif;
+        }
+
+        .foot {
+            bottom:0;
+            position:fixed;
+            text-align:center;
+            width:100%;
+            color:rgb(94, 94, 94);
+        }
+        
+        /* You should always include the <style> tag in the head and the <script> tag in the <body>. */
+    </style>
+    <link rel="stylesheet" type="text/css" href="src/static/css/style.css">
 
     
 </head>
 <body>
     <div class="error-message">
-        <h3>404 This page could not be found.</h3>
-        
-        
-        
+        <h1>404</h1>
+        <h3>This page could not be found.</h3>
+        <a href="http://www.andrewnijmeh.net/">Return to andrewnijmeh.net</a>
+    </div>
+    <div class="foot">
+        <p>ANDREWNIJMEH.NET</p>
     </div>
 
-    <style>
-
-        h3 {
-            font-weight: 150;
-            text-align: center;
-            line-height: 80vh;
-            font-size:2vh;
-        }
-        
-        body{
-            background-color:rgb(151, 159, 165)
-        }
-        
-        
-        
-    </style>
 </body>
 </html>
