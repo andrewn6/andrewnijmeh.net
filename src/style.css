@@ -1,11 +1,11 @@
-body {
-    background-color:#444;
-    margin:0;
+body, html {
+    height: 100%;
+    margin: 0;
     font-family:Nunito, sans-serif;
-    color:white;
-    font-weight:200;
-}
+    color: #777;
+  }
 
+<<<<<<< HEAD
 .main-hero-image {
     background:url('background.jpeg');
     background-size:cover;
@@ -27,4 +27,43 @@ h1 {
     background-size:cover;
     background-position:center;
 }
+=======
+  .bg {
+    background-image: url("background.jpeg");
+    height: 100%;
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .name-wrap {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .name {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: #fff;
+    padding: 18px;
+    font-size: 35px;
+    letter-spacing: 10px;
+    opacity: 1;
+    border-radius:5px;
+    transition:0.1s;
+  }
+  
+  .name:hover {
+      background-color: rgba(2, 0, 0, 0.637);
+  }
+>>>>>>> a07fa080147a33fa4e1055bb2262ecb8f4a9faa6
 
+  .links {
+      display:flex;
+      flex-direction: row;
+  }
