@@ -23,7 +23,8 @@ h1 {
 }
 
 .github {
-    background:url('github.png')
-    text-align; 
+    background:url('imgs/github.png');
+    background-size:cover;
+    background-position:center;
 }
 
