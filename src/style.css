@@ -66,6 +66,10 @@ body, html {
     width:100px;
   }
 
+  .discord{
+    border-radius: 50px;
+  }
+
   .navbar-links ul{
     margin: 0;
     padding: 0;
