@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     font-family:Nunito, sans-serif;
     color: #777;
+    background-image: url("/src/imgs/background.jpeg");
   }
 
   .bg {
