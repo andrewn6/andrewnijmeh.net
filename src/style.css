@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    padding: 2;
+    padding: 3;
     font-family:Nunito, sans-serif;
     color: #777;
     background-image: url("/src/imgs/background.jpeg");
@@ -47,10 +47,10 @@ body, html {
   }
 
   .navbar{
-    display: flex
+    display: flex;
     justify-content: space-beetween;
-    alight-items: center;
-    background-color: #333
+    align-items: center;
+    background-color: #333;
     color: white;
   }
 
@@ -63,4 +63,15 @@ body, html {
     margin: 0;
     padding: 0;
     display: flex;
+  }
+
+  .navbar-lniks ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    display: block;
+  }
+
+  .navbar-links li:hover{
+    background-color: #777
   }
