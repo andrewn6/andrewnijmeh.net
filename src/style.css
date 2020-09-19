@@ -4,11 +4,11 @@ body, html {
     padding: 3;
     font-family:Nunito, sans-serif;
     color: #777;
-    background-image: url("/src/imgs/background.jpeg");
+    background-image: url("imgs/background.jpeg");
   }
 
   .bg {
-    background-image: url("background.jpeg");
+    background-image: url("imgs/background.jpeg");
     height: 100%;
     position: relative;
     opacity: 0.65;
@@ -44,28 +44,38 @@ body, html {
   .links {
       display:flex;
       flex-direction: row;
+      height:100px;
   }
 
-  .navbar{
+  .navbar {
     display: flex;
     justify-content: space-beetween;
     align-items: center;
     background-color: #333;
     color: white;
+    flex-direction:row;
   }
 
-  .brand-title{
+  .brand-title {
     font-size: 1.0rem;
     margin: .3rem;
+  }
+
+  .github {
+    height:100px;
+    width:100px;
   }
 
   .navbar-links ul{
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    float:left;
   }
 
-  .navbar-lniks ul a {
+  .navbar-links ul a {
     text-decoration: none;
     color: white;
     padding: 0.5rem;
