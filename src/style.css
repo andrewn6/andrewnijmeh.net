@@ -11,7 +11,7 @@ body, html {
     background-image: url("imgs/background.jpeg");
     height: 100%;
     position: relative;
-    opacity: 0.65;
+    opacity: 1.0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,15 +62,15 @@ body, html {
   }
 
   .github {
-    border-radius: 30px;
-    height:100px;
-    width:100px;
+    border-radius: 100px;
+    height:80px;
+    width:80px;
   }
 
   .discord{
     border-radius: 100;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 
   }
 
