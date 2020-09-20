@@ -1,7 +1,12 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body, html {
     height: 100%;
     margin: 0;
-    padding: 3;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
     background-image: url("imgs/background.jpeg");
@@ -70,20 +75,19 @@ body, html {
     display: flex;
     justify-content: space-beetween;
     align-items: center;
-    background-color: rgb(3,3,3);
+    background-color: #333;
     color: white;
     flex-direction:row;
   }
 
   .brand-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: .3rem;
   }
 
   .github {
     padding: 2px;
     border-radius: 20px;
-
     height:80px;
     width:80px;
   }
@@ -99,9 +103,7 @@ body, html {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction:row;
-    list-style-type: none;
-    float:left;
+    
   }
 
   .navbar-links ul a {
@@ -111,6 +113,26 @@ body, html {
     display: block;
   }
 
+
+
+  .navbar-links li {
+    list-style: none;
+
+  }
+
   .navbar-links li:hover{
-    background-color: #777
+    background-color: #666
+  }
+
+  .navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem;
+    display: block;
+
+  }
+
+  
+  navbar-links ul li {
+    text-align: center;
   }
