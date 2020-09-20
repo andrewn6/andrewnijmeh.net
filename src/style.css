@@ -81,13 +81,15 @@ body, html {
   }
 
   .github {
-    border-radius: 100px;
+    padding: 2px;
+    border-radius: 20px;
+
     height:80px;
     width:80px;
   }
 
   .discord {
-    border-radius: 100;
+    border-radius: 17px;
     width: 80px;
     height: 80px;
 
