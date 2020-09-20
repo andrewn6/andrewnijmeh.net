@@ -49,6 +49,7 @@ body, html {
     align-items:center;
     flex-direction:row;
     justify-content:space-around;
+    
   }
 
   .links a {
@@ -104,9 +105,22 @@ body, html {
 
   .github, .discord, .twitter, .gmail {
     padding: 2px;
-    border-radius: 20px;
-    height:80px;
-    width:80px;
+    border-radius: 15px;
+    height:70px;
+    width:70px;
+  }
+
+  .github:hover{
+    background-color: #999;
+    
+  }
+
+  .discord:hover{
+    background-color: #999;
+  }
+
+  .twitter:hover{
+    background-color: #999;
   }
 
   .navbar a {
