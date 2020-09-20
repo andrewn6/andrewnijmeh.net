@@ -11,5 +11,8 @@
     "url": "https://github.com/FFlop/andrewnijmeh.net"
   },
   "author": "Andrew Nijmeh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
 }
