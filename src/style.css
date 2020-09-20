@@ -39,6 +39,21 @@ body, html {
     margin-bottom:8px;
     width:100%;
   }
+
+  .links {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+
+  .links a {
+    overflow:hidden;
+  }
   
   .name-wrap {
     position: absolute;
@@ -65,74 +80,54 @@ body, html {
       
   }
 
-  .links {
-      display:flex;
-      flex-direction: row;
-      height:100px;
-  }
-
   .navbar {
     display: flex;
-    justify-content: space-beetween;
     align-items: center;
     background-color: #333;
     color: white;
     flex-direction:row;
+    font-family:Nunito,sans-serif;
+    box-shadow:0px 20px 20px 10px rgba(0,0,0,0.5)
   }
 
   .brand-title {
     font-size: 1.5rem;
-    margin: .3rem;
+    margin:0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
 
-  .github {
+  .brand-title:hover {
+    background-color:rgba(255,255,255,0.3);
+  }
+
+  .github, .discord, .twitter, .gmail {
     padding: 2px;
     border-radius: 20px;
     height:80px;
     width:80px;
   }
 
-  .discord {
-    border-radius: 17px;
-    width: 80px;
-    height: 80px;
-
-  }
-
-  .navbar-links ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    
-  }
-
-  .navbar-links ul a {
-    text-decoration: none;
-    color: white;
-    padding: 1.0rem;
+  .navbar a {
     display: block;
-  }
-
-
-
-  .navbar-links li {
-    list-style: none;
-
-  }
-
-  .navbar-links li:hover{
-    background-color: #666
-  }
-
-  .navbar-links li a {
-    text-decoration: none;
-    color: white;
-    padding: 0.2rem;
-    display: block;
-
-  }
-
-  
-  navbar-links ul li {
+    color: #f2f2f2;
+    margin:0;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .navbar .icon {
+    display: none;
   }
