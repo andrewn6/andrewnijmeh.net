@@ -108,6 +108,7 @@ body, html {
     border-radius: 15px;
     height:70px;
     width:70px;
+    opacity: 0.9;
   }
 
   .github:hover{
