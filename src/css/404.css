@@ -1,0 +1,64 @@
+@import url(https://bit.ly/33xGQbs); /* font-family: source sans pro; */
+
+* {
+    box-sizing:border-box;
+    font-family: 'source sans pro', sans-serif;
+}
+
+body {
+    background:linear-gradient(to right, #fff,#ccc);
+    height:100%;
+    width:100%;
+}
+h2 {
+	font-weight: 110;
+	text-align: center;
+	font-size: 40px;
+	margin-top: -1px;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	margin: 1;
+	padding: 1;
+}
+
+a {
+	background: none;
+	border: none;
+	color: white;
+	text-transform: lowercase;
+	font-weight: 600;
+	font-family: Source Sans Pro, sans-serif;
+	font-size: 30px;
+	transition: all 0.1s;
+	position: static;
+	margin-left: 35%;
+}
+
+a:hover {
+	transform: skew(-10deg) scale(1.05);
+}
+
+a:active {
+	color: lightblue;
+	text-decoration: none;
+	transform: scale(0.96) skew(-10deg)
+}
+
+body {
+	font-family: Source Sans Pro, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.foot {
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	color: rgb(94, 94, 94);
+}
