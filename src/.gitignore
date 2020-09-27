@@ -1,4 +1,4 @@
-/node_modules /
+./node_modules 
 
 # Common file for attributes in mac OD
 .DS_STORE 
