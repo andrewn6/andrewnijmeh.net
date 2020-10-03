@@ -28,7 +28,6 @@ body, html {
 
   .bg {
     height: 100%;
-    background-image:url('bg.png');
     position: relative;
     opacity: 1;
     background-position: center;
@@ -52,7 +51,7 @@ body, html {
     width: 100%;
     display:flex;
     align-items:center;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-around;
   }
   
