@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  transition: 0.1s;
 }
 
 body, html {
@@ -8,6 +9,7 @@ body, html {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
+    background-color:#333;
   }
 
   a {
@@ -30,9 +32,7 @@ body, html {
     height: 100%;
     position: relative;
     opacity: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color:#333;
   }
 
   .credit {
@@ -48,11 +48,12 @@ body, html {
     position: absolute;
     left: 0;
     top: 50%;
+    right:0;
     width: 100%;
     display:flex;
     align-items:center;
-    flex-direction:column;
-    justify-content:space-around;
+    justify-content: center;
+    flex-direction:row;
   }
   
   .name-wrap {
@@ -105,11 +106,12 @@ body, html {
   .img {
     padding: 0px;
     border-radius: 15px;
-    height:100px;
-    width:100px;
     opacity: 0.8;
     transition:0.8s cubic-bezier(.17,.67,0,1);
     border-radius:50%;
+    margin-left:5vw;
+    margin-right:5vw;
+    width:10vw;
   }
 
   .img:hover {
@@ -122,12 +124,12 @@ body, html {
     color: #f2f2f2;
     margin:0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 16px;
     text-decoration: none;
   }
 
   .navbar a:hover {
-    background-color:rgba(255,255,255,0.3);
+    background-color:rgba(255, 255, 255, 0.822);
     color: black;
   }
   
@@ -138,4 +140,16 @@ body, html {
   
   .navbar .icon {
     display: none;
+  }
+
+  @media screen and (max-width:600px) {
+    .img {
+      width:15vw;
+    }
+  }
+
+  @media screen and (min-width:1500px) {
+    .img {
+      width:5vw;
+    }
   }
