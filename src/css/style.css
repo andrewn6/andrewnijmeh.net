@@ -125,7 +125,9 @@ body, html {
 
   .navbar a:hover {
     background:#111;
+    
   }
+
   
   .navbar a.active {
     background-color: #4CAF50;
