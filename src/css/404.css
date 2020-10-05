@@ -2,56 +2,85 @@
 
 * {
     box-sizing:border-box;
-    font-family: 'source sans pro', sans-serif;
+	font-family: 'source sans pro', sans-serif;
 }
 
-body {
-    background:linear-gradient(to right, #fff,#ccc);
+html {
+	background:rgb(104, 188, 203);
     height:100%;
-    width:100%;
-    font-family:'Source Sans Pro', sans-serif;
+	width:100%;
+	animation: load 2s;
 }
 
 h2 {
 	font-weight: 110;
 	text-align: center;
 	font-size: 40px;
-	margin-top: -1px;
 }
 
 h1 {
 	font-size: 100px;
 	text-align: center;
-	margin: 1;
-	padding: 1;
+	margin:0;
+	margin-top:30px;
+	background: -webkit-linear-gradient(180deg, rgb(100, 225, 160), rgb(104, 188, 203), rgb(96, 43, 208), rgb(145, 27, 55));
+	background-size:200%;
+	-webkit-background-clip: text;
+	background-clip:text;
+	-webkit-text-fill-color: transparent;
+	animation:bgchange 20s infinite;
+	font-weight:900;
 }
 
 a {
 	background: none;
 	border: none;
-	color: white;
-	text-transform: lowercase;
 	font-weight: 600;
 	font-family: Source Sans Pro, sans-serif;
-	font-size: 30px;
 	transition: all 0.1s;
-	position: static;
-	margin-left: 35%;
+	cursor:pointer;
+	text-decoration: none;
 }
 
 a:hover {
-	transform: skew(-10deg) scale(1.05);
+	text-decoration: black underline;
 }
+
 
 a:active {
 	color: lightblue;
 	text-decoration: none;
-	transform: scale(0.96) skew(-10deg)
+}
+
+hr {
+	background-color:black;
+	height:2px;
+	border:none;
+}
+.error-message {
+	background:linear-gradient(rgba(204, 180, 180, 0.723), rgba(142, 149, 137, 0.671));
+	padding:10px;
+	box-shadow:0 0 30px 10px rgba(0,0,0,0.5);
+	border-radius:2px;
+	margin-left:30%;
+	width:40%;
+	margin-top:15%;
 }
 .foot {
 	bottom: 0;
+	left:0;
+	right: 0;
 	position: fixed;
 	text-align: center;
-	width: 100%;
 	color: rgb(94, 94, 94);
+}
+
+@keyframes bgchange {
+	0% {background-position:0% 0%;}
+	50% {background-position:100% 100%;}
+	100% {background-position: 0% 0%;}
+}
+
+@keyframes load {
+    from {transform:translateX(-20px); opacity:0.6;}
 }

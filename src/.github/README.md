@@ -1,4 +1,3 @@
-
-Hello! This is the repository of my website, andrew.nijmeh.net! I am getting some help from PineappleRind, a frontend developer.
-If you want to see any of his projects you can go to his [GitHub](github.com/PineappleRind). (He doesn't post too many projects but if you are interested check it out!
-- [website](http://andrew.nijmeh.net/)
+This is my portfolio website, built with [@PineappleRind](https://github.com/PineappleRind) (a great frontend dev).
+You can check out my website [here](https://andrew.nijmeh.net/).
+It has all my social media services I use and more!
