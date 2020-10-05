@@ -88,7 +88,7 @@ body, html {
     color: white;
     flex-direction:row;
     font-family:Nunito,sans-serif;
-    box-shadow:0px 20px 20px 10px rgba(0,0,0,0.5)
+    box-shadow:0px 20px 20px 10px rgba(0,0,0,0.5);
     justify-content:space-between;
   }
 
@@ -117,7 +117,7 @@ body, html {
 
   .img:hover {
     transform:scale(1.2);
-    opacity:1;
+    opacity:2;
   }
 
   .navbar a {
