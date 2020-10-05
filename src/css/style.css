@@ -107,7 +107,7 @@ body, html {
   .img {
     padding: 0px;
     border-radius: 15px;
-    opacity: 0.8;
+    opacity: 1;
     transition:0.8s cubic-bezier(.17,.67,0,1);
     border-radius:50%;
     margin-left:5vw;
