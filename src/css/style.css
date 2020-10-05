@@ -125,6 +125,8 @@ body, html {
 
   .navbar a:hover {
     background:#111;
+    transform:scale(1.1);
+    opacity:2;
     
   }
 
