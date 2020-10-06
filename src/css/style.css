@@ -108,7 +108,7 @@ body, html {
   }
 
   .img:hover {
-    transform:scale(1.2);
+    transform:scale(1.4);
     opacity:2;
   }
 
