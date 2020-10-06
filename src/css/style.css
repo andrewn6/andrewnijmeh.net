@@ -102,13 +102,13 @@ body, html {
     opacity: 1;
     transition:0.8s cubic-bezier(.17,.67,0,1);
     border-radius:50%;
-    margin-left:1vw;
-    margin-right:1vw;
+    margin-left:0.6vw;
+    margin-right:0.6vw;
     width:10vw;
   }
 
   .img:hover {
-    transform:scale(1.4);
+    transform:scale(1.2);
     opacity:2;
   }
 
