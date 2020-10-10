@@ -4,4 +4,6 @@ WORKDIR /scripts/backend /
 
 COPY /scripts/frontend /
 
-COPY requirements.txt . .
+COPY requirements.txt . 
+
+pip3 install -r requirements.txt 
