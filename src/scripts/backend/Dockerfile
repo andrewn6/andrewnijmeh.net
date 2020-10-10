@@ -1,3 +1,7 @@
-FROM python:3.6
+FROM python:3.6-buster
 
-ADD /scripts/backend /
+WORKDIR /scripts/backend /
+
+COPY /scripts/frontend /
+
+COPY requirements.txt . .
