@@ -5,3 +5,4 @@ FROM nginx
 ADD scripts/nginx/nginx.conf /etc/nginx/nginx.conf
 
 # Copy wsgi conf file for flask
+
