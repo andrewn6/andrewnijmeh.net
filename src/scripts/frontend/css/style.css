@@ -103,8 +103,8 @@ body, html {
     opacity: 1;
     transition:0.8s cubic-bezier(.17,.67,0,1);
     border-radius:50%;
-    margin-left:0.6vw;
-    margin-right:0.6vw;
+    margin-left:0.5vw;
+    margin-right:0.5vw;
     width:10vw;
   }
 
