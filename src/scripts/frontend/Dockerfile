@@ -1,6 +1,6 @@
 FROM python:3.6-buster
 
-WORKDIR /scripts/backend /
+WORKDIR /scripts/frontend /
 
 COPY /scripts/frontend /
 
