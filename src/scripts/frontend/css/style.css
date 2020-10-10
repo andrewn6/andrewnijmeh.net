@@ -133,7 +133,6 @@ body, html {
 
   
   .navbar a.active {
-    background-color: lightblue;
     color: white;
   }
   
