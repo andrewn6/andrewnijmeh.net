@@ -8,7 +8,10 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-
+      title: "Andrew Nijmeh",
+      headerLinks: [
+        { title: 'Home', path: '/'}
+      ]
     }
   }
   return() {
