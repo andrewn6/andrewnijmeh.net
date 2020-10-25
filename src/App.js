@@ -14,7 +14,10 @@ class App extends Component {
         { title: 'About Me', path: '/about'},
         { title: 'Contact', path: '/contact' },
         { title: 'Projects', path:'/projects' }
-      ]
+      ],
+      home: {
+        title: "Andrew Nijmeh"
+      }
     }
   }
 
@@ -24,4 +27,5 @@ class App extends Component {
     );
   }
 }
+
 export default App;
