@@ -4,9 +4,11 @@ import Component from 'react';
 
 import './App.css';
 
-class App extends Component() {
-  return (
-  );
-    
+class App extends Component {
+  return() {
+    return (
+      <div>Hello</div>
+    );
+  }
 }
 export default App;
