@@ -17,6 +17,12 @@ class App extends Component {
       ],
       home: {
         title: "Andrew Nijmeh"
+      },
+      about: {
+        title: 'About Me'
+      },
+      contact: {
+        title: "Contact Me"
       }
     }
   }
