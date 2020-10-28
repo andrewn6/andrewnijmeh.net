@@ -54,11 +54,11 @@ class App extends Component {
               <link className="navbar-link" to="/">Home</link>
               <link className="navbar-link" to="/">About</link>
               <link className="navbar-link" to="/">Contact</link>
+              <link className="navbar-link" to="/">Projects</link>
             </Nav>
             </Navbar.Collapse>
           </Navbar>
           // Paths for navbar itmes here.. 
-
         </Container>
       </Router>
     );
