@@ -28,6 +28,8 @@ class App extends Component {
 
           <Navbar className="border-bottom">
             <Navbar.Brand>Andrew Nijmeh</Navbar.Brand>
+            <Navbar.Toggle classname="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle" />
           </Navbar>
         
         </Container>
