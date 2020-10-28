@@ -53,7 +53,7 @@ class App extends Component {
             <Nav className="ml-auto">
               <link className="navbar-link" to="/">Home</link>
               <link className="navbar-link" to="/">About</link>
-              
+              <link className="navbar-link" to="/">Contact</link>
             </Nav>
             </Navbar.Collapse>
           </Navbar>
