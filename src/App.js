@@ -1,7 +1,10 @@
 import React from 'react';
 import Component from 'react';
-
 import './App.css';
+
+// Local importd (assets, css, html etc)
+import Assets from './assets';
+import Images from './assets/images';
 
 class App extends Component {
 
