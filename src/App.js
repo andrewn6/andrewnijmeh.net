@@ -36,7 +36,7 @@ class App extends Component {
         <Container className="p-0" fluid{true}>
 
           <Navbar className="border-bottom">
-            <Navbar.Brand>Andrew Nijmeh</Navbar.Brand>
+            <Navbar.Brand>this.state.title</Navbar.Brand>
             <Navbar.Toggle classname="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle" />
           </Navbar>
