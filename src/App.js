@@ -58,7 +58,7 @@ class App extends Component {
             </Nav>
             </Navbar.Collapse>
           </Navbar>
-          // Paths for navbar itmes here.. 
+         
         </Container>
       </Router>
     );
