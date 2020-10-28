@@ -47,9 +47,9 @@ class App extends Component {
 
           <Navbar className="border-bottom">
             <Navbar.Brand>this.state.title</Navbar.Brand>
+
             <Navbar.Toggle classname="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle" 
-
             <Nav className="ml-auto">
               <link className="navbar-link" to="/">Home</link>
               <link className="navbar-link" to="/">About</link>
