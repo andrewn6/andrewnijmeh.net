@@ -23,6 +23,9 @@ class App extends Component {
       },
       contact: {
         title: "Contact Me"
+      },
+      projects: {
+        title: "My Projects"
       }
     }
   }
