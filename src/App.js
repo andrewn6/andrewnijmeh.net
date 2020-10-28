@@ -23,7 +23,15 @@ class App extends Component {
 
   return() {
     return (
-      <div>Hello</div>
+      <Router>
+        <Container className="p-0" fluid{true}>
+
+          <Navbar className="border-bottom">
+            <Navbar.Brand>Andrew Nijmeh</Navbar.Brand>
+          </Navbar>
+        
+        </Container>
+      </Router>
     );
   }
 }
