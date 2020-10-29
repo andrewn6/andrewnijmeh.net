@@ -40,25 +40,31 @@ class App extends Component {
     }
   }
 
-  return() {
+  render() {
     return (
       <Router>
-        <Container className="p-0" fluid{true}>
+        <Container className="p-0" fluid={true}>
+          
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar.Brand>Garrett Love</Navbar.Brand>
 
-          <Navbar className="border-bottom">
-            <Navbar.Brand>this.state.title</Navbar.Brand>
-
-            <Navbar.Toggle classname="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle" 
-            <Nav className="ml-auto">
-              <link className="navbar-link" to="/">Home</link>
-              <link className="navbar-link" to="/">About</link>
-              <link className="navbar-link" to="/">Contact</link>
-              <link className="navbar-link" to="/">Projects</link>
-            </Nav>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/">Home</Link>
+                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </Nav>
             </Navbar.Collapse>
           </Navbar>
-         
+
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
+          <Route path="/projects" render{() => <ProjectsPage title={this.state.projects.title} />} />
+          
+          <Footer />
+
         </Container>
       </Router>
     );
