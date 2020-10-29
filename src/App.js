@@ -1,12 +1,9 @@
 import React from 'react';
-import Component from 'react';
-import Router from 'react';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './App.css';
+import Container from 'react-bootsrap/Container'
 
-// Local importd (assets, css, html etc)
-import Assets from './assets';
-import Images from './assets/images';
+
+
 
 class App extends Component {
 
