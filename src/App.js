@@ -1,9 +1,10 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
-import Navbar from 'react-bootsrap/NavbarBrand'
+
 
 
 class App extends Component {
@@ -46,7 +47,7 @@ class App extends Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Garrett Love</Navbar.Brand>
+            <Navbar.Brand>Andrew Nijmeh</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
