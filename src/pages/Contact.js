@@ -8,7 +8,7 @@ class Contact extends Component {
     constructor(props){
         super(props);
         this.state = {
-            email: "andrewnijmeh1@gmail.com"
+            email: "andrewnijmeh1@gmail.com",
             discord: "flop#7234"
 
         }
