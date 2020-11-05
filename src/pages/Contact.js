@@ -4,7 +4,7 @@ import { Component } from 'react';
 import Footer from '../components/Footer'
 import Button from 'react-bootstrap/Button';
 
-class Contact extends Component {
+class Contact extends  React.Component {
     constructor(props){
         super(props);
         this.state = {
