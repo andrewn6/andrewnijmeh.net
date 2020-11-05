@@ -4,7 +4,7 @@ import { Component } from 'react';
 import Footer from '../components/Footer'
 import Button from 'react-bootstrap/Button';
 
-class Contact extends  React.Component {
+class Contact extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -16,7 +16,7 @@ class Contact extends  React.Component {
 }
     render(); {
         <div>
-
+            
         </div>
     }
 export default Contact;
