@@ -12,7 +12,7 @@ function Footer(){
                         Andrew Nijmeh
                     </Col>
                     <Col classname="p-0 d-flex justify-content-end" md={3}>
-                    This site was made by Andrew Nijmeh.
+                        &copy;2020 Andrew Nijmeh | PineappleRind.
                     </Col>
                 </Row>
             </Container>
