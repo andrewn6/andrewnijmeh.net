@@ -2,7 +2,9 @@ import React from 'react';
 
 
 function Hero(props) {
+    return(
 
+    );
 }
 
-export defualt Hero;
+export default Hero;
