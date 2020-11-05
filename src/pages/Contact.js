@@ -14,5 +14,9 @@ class Contact extends Component {
         }
     }
 }
+    render(); {
+        <div>
 
+        </div>
+    }
 export default Contact;
