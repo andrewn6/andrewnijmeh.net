@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 
-
+import Footer from './components/Footer'
 
 class App extends Component {
 

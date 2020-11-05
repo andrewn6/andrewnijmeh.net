@@ -6,7 +6,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 function Hero(props) {
     return(
-
+        
     );
 }
 
