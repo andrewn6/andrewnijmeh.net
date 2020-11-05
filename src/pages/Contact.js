@@ -9,6 +9,7 @@ class Contact extends Component {
         super(props);
         this.state = {
             email: "andrewnijmeh1@gmail.com"
+            discord: "flop#7234"
 
         }
     }
