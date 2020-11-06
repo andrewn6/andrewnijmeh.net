@@ -6,7 +6,7 @@ import {
     faYoutube
 } from "@Fontawesome/free-brands-svg-icons"
 
-export default function ContactIcons() {
+function ContactIcons() {
     return(
         <div className="contact-icons">
             <a
@@ -37,3 +37,4 @@ export default function ContactIcons() {
     );
 }
 
+export default ContactIcons;
