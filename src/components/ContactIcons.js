@@ -31,7 +31,7 @@ export default function ContactIcons() {
                 href="https://discord.com/users/388788632686690305"
                 className="discord-icon"
             >
-
+                
             </a>
         </div>
 
