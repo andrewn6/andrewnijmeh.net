@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function Content(props){
+export default function Content(props){
     return(
         <Container>
             <Row className="justify-content-center">
@@ -16,4 +16,3 @@ function Content(props){
     )
 }
 
-export default Content;
