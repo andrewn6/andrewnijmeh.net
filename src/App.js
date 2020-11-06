@@ -62,7 +62,7 @@ class App extends Component {
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
-          <Route path="/projects render={() => <ProjectsPage title={this.state.projects.title} />} />
+          <Route path="/projects" render={() => <ProjectsPage title={this.state.projects.title} />} />
           
           
           <Footer />
