@@ -16,8 +16,10 @@ class Contact extends React.Component {
     }
 }
     render(); {
-        <div>
-                
+        <div className="contact">
+
+        <h1>My Social Medias.</h1> 
+        <h3>Feel free to reach out to me on the following platforms.</h3>
         </div>
     }
 export default Contact;
