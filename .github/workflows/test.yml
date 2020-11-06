@@ -16,10 +16,8 @@ jobs:
         run: | 
           npm install
           cd ..
+   
       
-      - name: Install deps for /api 
-        run: |
-          cd /api 
-          npm install 
-          cd ..
+  
+
       
