@@ -21,12 +21,12 @@ export default function ContactIcons() {
             </a>
 
             <a
-
                 href="https://twitter.com/Flop"
                 className="twitter-icon"
             >
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
+
             <a
                 href="https://"
                 className="discord-icon"
