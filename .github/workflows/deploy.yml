@@ -22,4 +22,8 @@ jobs:
         cd /src
         npm start
         cd ..
-      
+    - name: Install deps for /api
+      run: | 
+        cd /api
+        npm install
+        cd ..
