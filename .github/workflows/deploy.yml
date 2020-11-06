@@ -9,3 +9,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Setup Node
+      uses: actions/setup-node@main
