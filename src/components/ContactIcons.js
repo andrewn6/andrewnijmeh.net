@@ -6,8 +6,7 @@ import {
     faYoutube
 } from "@Fontawesome/free-brands-svg-icons"
 
-function ContactIcons() {
+export default function ContactIcons() {
 
 }
 
-export default ContactIcons;
