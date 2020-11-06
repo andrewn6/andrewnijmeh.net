@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
-function Hero(props) {
+export default function Hero(props) {
 
     return(
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
@@ -20,5 +20,3 @@ function Hero(props) {
         </Jumbotron>
     );
 }
-
-export default Hero;
