@@ -3,3 +3,17 @@ on:
   push:
     branches:
       - rewrite/react
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Setup NODE
+        uses: actions/setup-node@main
+      
+      - name: Install deps for /portfolio-site
+        run: | 
+          npm install 
+          cd ..
+      
