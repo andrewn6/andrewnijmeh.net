@@ -13,8 +13,19 @@ export default function ContactIcons() {
             <a
                 href="https://www.youtube.com/c/Flop"
                 className="youtube-icon"
+
+            
             >
                 <FontAwesomeIcon icon={faYoutube} size="2x" />
+
+            </a>
+
+            <a
+
+                href="https://twitter.com/Flop"
+                className="twitter-icon"
+            >
+                <FontAwesomeIcon icon={FaTwitter} size="2x" />
             </a>
         </div>
 
