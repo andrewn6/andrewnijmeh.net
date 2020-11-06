@@ -5,5 +5,5 @@ on:
       - rewrite/react
 jobs:
   deploy:
-    name: Deploy:
+    name: Deploy
     runs-on: ubuntu-18.04
