@@ -1,1 +1,9 @@
 name: Deploy
+on: 
+  push:
+    branches:
+      - rewrite/react
+jobs:
+  deploy:
+    name: Deploy:
+    runs-on: ubuntu-18.04
