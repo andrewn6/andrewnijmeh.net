@@ -5,3 +5,9 @@ import {
     FaTwitter,
     faYoutube
 } from "@Fontawesome/free-brands-svg-icons"
+
+function ContactIcons() {
+
+}
+
+export default ContactIcons;
