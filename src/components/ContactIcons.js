@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from "@Fontawesome/react-fontawesome";
 import {
-    FaTwitter,
+    faTwitter,
     faYoutube
 } from "@Fontawesome/free-brands-svg-icons"
 
@@ -25,7 +25,12 @@ export default function ContactIcons() {
                 href="https://twitter.com/Flop"
                 className="twitter-icon"
             >
-                <FontAwesomeIcon icon={FaTwitter} size="2x" />
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+            </a>
+            <a
+                href=""
+            >
+
             </a>
         </div>
 
