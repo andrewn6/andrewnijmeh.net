@@ -7,3 +7,5 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-18.04
+    steps:
+    - name: Setup Node
