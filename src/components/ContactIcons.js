@@ -28,7 +28,8 @@ export default function ContactIcons() {
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
             <a
-                href=""
+                href="https://"
+                className="discord-icon"
             >
 
             </a>
