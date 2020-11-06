@@ -9,7 +9,7 @@ class Contact extends React.Component {
         super(props);
         this.state = {
             email: "andrewnijmeh1@gmail.com",
-            discord: "flop#7234",
+            discord: "discord.com/users/388788632686690305",
             twitter: "twitter.com/Flop"
 
         }
@@ -17,7 +17,7 @@ class Contact extends React.Component {
 }
     render(); {
         <div>
-            
+                
         </div>
     }
 export default Contact;
