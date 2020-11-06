@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 
 
-function AboutPage(props){
+function About(props){
 
     return(
         <div>
@@ -17,4 +17,4 @@ function AboutPage(props){
     );
 }
 
-export default AboutPage;
+export default About;
