@@ -18,7 +18,9 @@ class Contact extends React.Component {
 
     render() {
         return(
-
+            <h1>My Social Medias.</h1>
+            <h3>Feel free to reach out to me on any of these platforms.</h3>
+            
         );
     }
 
