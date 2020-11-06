@@ -6,7 +6,7 @@ import {
     faYoutube
 } from "@Fontawesome/free-brands-svg-icons"
 
-function ContactIcons() {
+function ContactIcons(props) {
     return(
         <div className="contact-icons">
             <a
