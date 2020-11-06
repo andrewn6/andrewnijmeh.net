@@ -6,6 +6,7 @@ function AboutPage(props){
 
     return(
         <div>
+            <Hero title={props.title}> />
             <Content>
                 <p>Hey there! my name is Andrew. I'm a developer who uses and loves Docker, Docker-Compose mySQL, Python, Flask, React.JS, Express JS, and NodeJS</p>
                 <p>I'm currently learning CI/CD, and working on a few projects..</p>
