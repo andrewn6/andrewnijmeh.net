@@ -10,3 +10,16 @@ jobs:
     steps:
     - name: Setup Node
       uses: actions/setup-node@main
+
+    - name: Install deps for /portfolio-site
+      run: |
+        cd /portfolio-site
+        npm install
+        cd ..
+
+    - name: Run local server
+      run: |
+        cd /src
+        npm start
+        cd ..
+      
