@@ -9,7 +9,6 @@ import {
 export default function ContactIcons() {
     return(
         <div className="contact-icons">
-            <h3>My socials!</h3>
             <a
                 href="https://www.youtube.com/c/Flop"
                 className="youtube-icon"
