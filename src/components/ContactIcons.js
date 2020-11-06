@@ -28,7 +28,7 @@ export default function ContactIcons() {
             </a>
 
             <a
-                href="https://"
+                href="https://discord.com/channels/@me/388788632686690305"
                 className="discord-icon"
             >
 
