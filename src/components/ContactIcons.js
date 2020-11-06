@@ -18,6 +18,6 @@ export default function ContactIcons() {
             </a>
         </div>
 
-    )
+    );
 }
 
