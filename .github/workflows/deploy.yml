@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - rewrite/react
+
 jobs:
   deploy:
     name: Deploy
@@ -10,15 +11,14 @@ jobs:
     steps:
     - name: Setup Node
       uses: actions/setup-node@main
-
-    
-    - name: Run 
+  
+    - name: Install deps for react
       run: |
         cd /src
-        npm start
-        cd 
+        npm install
+        cd
 
-    - name: Install deps for /api
+    - name: Install deps for api
       run: | 
         cd /api
         npm install
