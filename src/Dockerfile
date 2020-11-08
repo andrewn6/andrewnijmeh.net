@@ -1,8 +1,5 @@
-ARG node-version=12
-ARG entry-point=node
-ARG file=App.js
 
-FROM node:${node-version}
+FROM node:12
 
 WORKDIR /src
  
@@ -22,4 +19,4 @@ EXPOSE 8080
 
 RUN echo 'Expose port to port 8080'
 
-CMD [${entry-point}, ${file} ]
+CMD ["node", "App.js"]
