@@ -30,3 +30,9 @@ jobs:
         npm install
         npm start
         cd 
+    - name: Run App.js for /src
+      run: |
+        cd /src
+        npm install
+        npm start
+        cd
