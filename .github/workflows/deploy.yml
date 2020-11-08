@@ -23,3 +23,10 @@ jobs:
         cd /api
         npm install
         cd 
+
+    - name: Run server.js for /api
+      run: |
+        cd /api
+        npm install
+        npm start
+        cd 
