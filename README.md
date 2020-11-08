@@ -1,13 +1,11 @@
 # Getting Started with Create React App
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 [Deploy](https://github.com/andrewnijmeh/andrewnijmeh.net/.github/workflows/Deploy/badge.svg)
-=======
+
 ![Deploy](https://github.com/andrewnijmeh.net/github/workflows/Deploy/badge.svg)
->>>>>>> 751fdc6583230f3e09b97b3f2b3c3c7311a0b2ce
-=======
+
 [Deploy](https://github.com/andrewnijmeh/andrewnijmeh.net/github/workflows/Test/badge.svg)
-=======
+
 >>>>>>> f7e74cb32d17ec8a02f25138937af6aa264b2f96
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
