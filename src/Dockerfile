@@ -1,5 +1,5 @@
-
-FROM node:12
+ARG node-version=12
+FROM node:${node-version}}
 
 WORKDIR /src
  
