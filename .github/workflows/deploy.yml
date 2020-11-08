@@ -11,11 +11,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@main
 
-    - name: Install deps for /portfolio-site
-      run: 
-        npm install
-        cd 
-
+    
     - name: Run 
       run: |
         cd /src
