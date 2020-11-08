@@ -3,6 +3,18 @@
     text-align: center;
 }
 
+.contact-icons{
+    background-color: #eeeeee;
+    padding: 25px 50px;
+}
+a.contact{
+    margin: 0 1rem;
+    transition: transform 250ms;
+}
+a.contact:hover{
+    transform: translate(-2px)
+}
+
 .youtube-icon{
 
 }
