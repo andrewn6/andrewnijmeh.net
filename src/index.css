@@ -19,13 +19,13 @@ a.contact:hover{
 }
 
 .youtube-icon{
-
+    color: red
 }
 
 .twitter-icon{
-
+    color: blue
 }
 
 .discord-icon{
-
+    color: rgb(133, 213, 240);
 }
