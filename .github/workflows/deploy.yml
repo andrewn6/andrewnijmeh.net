@@ -14,13 +14,14 @@ jobs:
     - name: Install deps for /portfolio-site
       run: 
         npm install
-        cd ..
+        cd 
 
-    - name: Run local server
+    - name: Run 
       run: |
         cd /src
         npm start
-        cd ..
+        cd 
+
     - name: Install deps for /api
       run: | 
         cd /api
