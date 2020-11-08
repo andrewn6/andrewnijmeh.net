@@ -7,10 +7,13 @@
     background-color: #eeeeee;
     padding: 25px 50px;
 }
+
 a.contact{
     margin: 0 1rem;
     transition: transform 250ms;
+    display: inline-block;
 }
+
 a.contact:hover{
     transform: translate(-2px)
 }
