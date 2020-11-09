@@ -1,6 +1,6 @@
 ARG node-version=12
 
-FROM node:${node-version}
+FROM node:12
 
 WORKDIR /api
 
