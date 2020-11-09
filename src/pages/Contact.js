@@ -4,7 +4,7 @@ import { Component } from 'react';
 import Footer from '../components/Footer';
 import ContactIcons from '../components/';
 
-class Contact extends Component {
+export default class Contact extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -28,4 +28,3 @@ class Contact extends Component {
     
 }
 
-export default Contact;
