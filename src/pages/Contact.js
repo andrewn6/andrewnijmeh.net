@@ -4,7 +4,8 @@ import { Component } from 'react';
 import Footer from '../components/Footer';
 import ContactIcons from '../components/';
 
-export default class Contact extends Component {
+export default class ContactPage extends Component {
+
     constructor(props){
         super(props);
         this.state = {

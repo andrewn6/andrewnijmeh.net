@@ -7,8 +7,6 @@ import Content from '../components/Content';
 
 class AboutPage extends Component {
     
-
-
     render(){
         return(
             <div>
