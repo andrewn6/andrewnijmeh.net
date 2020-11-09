@@ -1,11 +1,27 @@
 name: Build
-on: 
+on:
   push:
     branches:
       - rewrite/react
 
-jobs: 
-  build:
+jobs:
+  test:
+    name: Build
     runs-on: ubuntu-18.04
     steps:
-      - name: Setup docker
+      - name: Setup NODE
+        uses: actions/setup-node@main
+      
+      - name: Install deps for /portfolio-site
+        run: | 
+          npm install
+          cd ..
+          
+      - name: install deps for api 
+        run: |
+          cd api
+          npm install
+      
+  
+    
+      
