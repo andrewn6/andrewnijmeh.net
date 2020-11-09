@@ -4,7 +4,7 @@ FROM node:12
 
 WORKDIR /api
 
-COPY pacakge*.json /
+COPY package*.json /
 
 RUN npm install
 
