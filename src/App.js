@@ -38,8 +38,13 @@ export default class App extends Component {
 
       projects: {
         title: "My Projects"
+      
+      },
 
+      skills: {
+        title: "Skills"
       }
+
     }
   }
 
