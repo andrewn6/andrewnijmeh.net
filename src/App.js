@@ -7,6 +7,7 @@ import './App.css';
 
 import Footer from './components/Footer';
 import Content from './components/Content';
+
 import About from './pages/About';
 import Contact from './pages/Contact';
 
