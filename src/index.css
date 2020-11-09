@@ -6,6 +6,7 @@
 .contact-icons{
     background-color: #eeeeee;
     padding: 25px 50px;
+    border-radius: 3px;
 }
 
 a.contact{
@@ -28,4 +29,5 @@ a.contact:hover{
 
 .discord-icon{
     color: rgb(133, 213, 240);
+
 }
