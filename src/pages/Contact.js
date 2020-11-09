@@ -1,8 +1,8 @@
 import React from 'react';
 import { Component } from 'react';
 
-import Footer from '../components/Footer'
-
+import Footer from '../components/Footer';
+import ContactIcons from '../components/';
 
 class Contact extends Component {
     constructor(props){
