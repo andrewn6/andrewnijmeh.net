@@ -11,7 +11,7 @@ import Content from './components/Content';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 
-export default class App extends Component {
+export default class HomePage extends Component {
 
   constructor(props){
     super(props);
