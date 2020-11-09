@@ -19,7 +19,8 @@ export default class App extends Component {
         { title: 'Home', path: '/home'},
         { title: 'About Me', path: '/about'},
         { title: 'Contact', path: '/contact' },
-        { title: 'Projects', path:'/projects' }
+        { title: 'Projects', path:'/projects' },
+        { title: 'Skills', path: '/skills' }
 
       ],
 
