@@ -10,6 +10,6 @@ RUN npm install
 
 RUN echo "Installed node modules"
 
-EXPOSE 5050
+EXPOSE 8081
 
 CMD ["node", "server.js"]
