@@ -72,6 +72,7 @@ export default class App extends Component {
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
           <Route path="/projects" render={() => <ProjectsPage title={this.state.projects.title} />} />
+          <Route path="/skills" render={() => <SkillsPage title={this.state.skills.title} />} />
           
           
           <Footer />
@@ -81,4 +82,6 @@ export default class App extends Component {
     );
   }
 }
+
+
 
