@@ -15,7 +15,7 @@ class Skills extends Component {
 
             tools: {
                 title: "Tools",
-
+                subtitle: "Here are a list of tools I use. Python, Git, Github, Visual Studio Code, Linux, Docker, Nginx, Docker-Compose"
             },
             skills: {
                 title: "Skills",
