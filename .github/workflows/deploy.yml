@@ -14,7 +14,6 @@ jobs:
   
     - name: Install deps for react
       run: |
-        cd /src
         npm install
         cd
 
