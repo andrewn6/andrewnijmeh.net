@@ -19,7 +19,7 @@ class SkillsPage extends Component {
             },
             skills: {
                 title: "Skills",
-                subtitle: ""
+                subtitle: "Here are a set of skills that I have. I have leadership, innovative and creativity."
             }
 
         }

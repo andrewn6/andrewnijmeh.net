@@ -1,8 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
 
-import Footer from '../components/Footer';
-import ContactIcons from '../components/';
 
 export default class ContactPage extends Component {
 
