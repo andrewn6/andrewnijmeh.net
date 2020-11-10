@@ -2,7 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import Content from '../components/Content'
 
-export default class Skills extends Component {
+class Skills extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -10,9 +10,20 @@ export default class Skills extends Component {
             
             frameworks: {
                 title: "Frameworks",
-                subtitle: "Here are a list"
+                subtitle: "Here are a list of frameworks I use, React, Express, Flask, Node.js."
             },
+
+            tools: {
+                title: "Tools",
+
+            },
+            skills: {
+                title: "Skills",
+                subtitle: ""
+            }
 
         }
     }
 }
+
+export default Skills;
