@@ -1,34 +1,32 @@
-.App{
+.App {
     font-family: sans-serif;
-    text-align: center;
+    text-align: center
 }
 
-.contact-icons{
-    background-color: #eeeeee;
+.contact-icons {
+    background-color: #eee;
     padding: 25px 50px;
-    border-radius: 3px;
+    border-radius: 3px
 }
 
-a.contact{
+a.contac t{
     margin: 0 1rem;
-    transition: transform 250ms;
-    display: inline-block;
+    transition: transform 0.2s;
+    display: inline-block
 }
 
-a.contact:hover{
+a.contact:hover {
     transform: translate(-2px)
 }
 
-.youtube-icon{
+.youtube-icon {
     color: red
 }
 
-.twitter-icon{
+.twitter-icon {
     color: blue
 }
 
-.discord-icon{
-    color: rgb(133, 213, 240);
-
+.discord-icon {
+    color: rgb(133, 213, 240)
 }
-
