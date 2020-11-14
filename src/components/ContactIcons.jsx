@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from "@Fontawesome/react-fontawesome";
 import {
     faTwitter,
     faYoutube
-} from "@Fontawesome/free-brands-svg-icons"
+} from "@Fontawesome/free-brands-svg-icons";
+
+import css from 'src/index.css';
 
 function ContactIcons(props) {
     return(
