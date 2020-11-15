@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 import React from 'react';
 import { Component } from 'react';
+import PageNotFound from '../assets/images/404.png';
 
 class Error404 extends Component{
 
@@ -8,7 +9,7 @@ class Error404 extends Component{
         <div>
             <img src={PageNotFound} />
             <p style={{textAlign: "center"}}>
-                < <Link to="/">Go to Home </Link>
+                <Link to="/">Go to Home </Link>
             </p>
 
         </div>
