@@ -17,19 +17,6 @@ jobs:
         npm install
         cd
 
-    - name: Install deps for api
-      run: | 
-        cd /api
-        npm install
-        cd 
-
-    - name: Run server.js for /api
-      run: |
-        cd /api
-        npm install
-        npm start
-        cd 
-        
     - name: Run App.js for /src
       run: |
         cd /src
