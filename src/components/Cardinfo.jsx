@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
+import css from "./src/carousel.css";
 
 function CardInfo(props) {
     const style = useSpring({opacity: 1, from: {opacity: 0}});
