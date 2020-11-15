@@ -12,6 +12,7 @@ import Content from './components/Content';
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import SkillsPage from './pages/SkillsPage';
+import ProjectsPage from './pages/ProjectsPage';
 
 export default class App extends React.Component {
 

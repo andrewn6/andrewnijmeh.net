@@ -20,6 +20,6 @@ function AboutPage(props) {
         </div>
         );
     }
-}
+
 
 export default AboutPage;
