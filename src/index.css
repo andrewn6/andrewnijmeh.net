@@ -3,30 +3,3 @@
     text-align: center
 }
 
-.contact-icons {
-    background-color: #eee;
-    padding: 25px 50px;
-    border-radius: 3px
-}
-
-a.contac t{
-    margin: 0 1rem;
-    transition: transform 0.2s;
-    display: inline-block
-}
-
-a.contact:hover {
-    transform: translate(-2px)
-}
-
-.youtube-icon {
-    color: red
-}
-
-.twitter-icon {
-    color: blue
-}
-
-.discord-icon {
-    color: rgb(133, 213, 240)
-}
