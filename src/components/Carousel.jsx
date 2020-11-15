@@ -19,7 +19,21 @@ class Carousel extends Component{
                     selected: false
 
                 }
+                {
+                    id: 1,
+                    title: 'Quiz App',
+                    subTitle: 'A quizz app centered around math with many features',
+                    link: "github.com/andrewnijmeh",
+                    imgSrc: utilitybot,
+                    selected: false
+    
+
+
+                }
             ]
         }
     }
 }
+
+
+export default Carousel;
