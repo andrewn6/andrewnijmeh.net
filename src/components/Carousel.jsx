@@ -33,7 +33,11 @@ class Carousel extends Component{
             ]
         }
     }
-}
+}   
+
+    handleCardClick = (id, card) => {
+        let items = [...this.state.items];
+    }
 
 
 export default Carousel;
