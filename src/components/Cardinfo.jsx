@@ -12,3 +12,5 @@ function CardInfo(props) {
         </animated.div>
     );
 }
+
+export default CardInfo;
