@@ -10,4 +10,4 @@ RUN npm install
 
 EXPOSE 8081
 
-CMD ["npm start", "index.js"]
+CMD ["npm start", "index.ts"]

@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     name: Deploy
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - name: Setup Node
       uses: actions/setup-node@main
@@ -17,19 +17,6 @@ jobs:
         npm install
         cd
 
-    - name: Install deps for api
-      run: | 
-        cd /api
-        npm install
-        cd 
-
-    - name: Run server.js for /api
-      run: |
-        cd /api
-        npm install
-        npm start
-        cd 
-        
     - name: Run App.js for /src
       run: |
         cd /src
