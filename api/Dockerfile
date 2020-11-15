@@ -12,4 +12,4 @@ RUN echo "Installed node modules"
 
 EXPOSE 8081
 
-CMD ["node", "server.js"]
+CMD ["npm start", "index.js"]
