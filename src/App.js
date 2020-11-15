@@ -1,4 +1,5 @@
 import React from 'react';
+import {Component} from 'react';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
@@ -12,7 +13,7 @@ import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
 import SkillsPage from './pages/SkillsPage';
 
-export default class App extends Component {
+export default class App extends React.Component {
 
   constructor(props){
     super(props);
@@ -62,13 +63,13 @@ export default class App extends Component {
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
+              <Navbar className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
                 <Link className="nav-link" to="/projects">Projects</Link>
                 <Link className="nav-link" to="/skills">Skills</Link>
-              </Nav>
+              </Navbar>
             </Navbar.Collapse>
           </Navbar>
 

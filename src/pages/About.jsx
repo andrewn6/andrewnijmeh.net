@@ -5,7 +5,7 @@ import Content from '../components/Content';
 
 
 
-class AboutPage extends Component {
+function AboutPage(props) {
     
     render(){
         return(
