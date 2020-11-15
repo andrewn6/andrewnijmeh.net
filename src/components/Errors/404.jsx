@@ -2,16 +2,17 @@ import { render } from '@testing-library/react';
 import React from 'react';
 import { Component } from 'react';
 
-class 404 extends Component{
+class Error404 extends Component{
 
     render(){
         <div>
             <img src={PageNotFound} />
             <p style={{textAlign: "center"}}>
-                <Link to"/
+                < <Link to="/">Go to Home </Link>
+            </p>
 
         </div>
     }
 }
 
-export default 404page;
+export default Error404;
