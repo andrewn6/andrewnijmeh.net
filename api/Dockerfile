@@ -8,7 +8,6 @@ COPY package*.json /
 
 RUN npm install
 
-RUN echo "Installed node modules"
 
 EXPOSE 8081
 
