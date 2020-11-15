@@ -19,7 +19,7 @@ jobs:
 
     - name: Run App.js for /src
       run: |
-        cd /src
-        npm install
+        cd src
+        npm ci
         npm start
         cd
