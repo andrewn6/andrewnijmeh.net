@@ -20,4 +20,4 @@ EXPOSE 8080
 
 RUN echo 'Exposed Frontend To Port 8080'
 
-CMD ["node", "App.js"]
+CMD ["npm start", "App.js"]
