@@ -17,6 +17,10 @@ jobs:
           npm install
           cd ..
           
+      - name: Run App.js With Node Compiler 
+        run: |
+          cd src
+          node App.js
       
       
   
