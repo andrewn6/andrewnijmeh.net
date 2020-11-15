@@ -1,5 +1,6 @@
 import React from 'react';
 import Cardinfo from './components/Cardinfo';
+import css from './src/carousel.css';
 
 function Card(props) {
     return(
