@@ -10,7 +10,7 @@ RUN git pull https://github.com/andrewnijmeh/andrewnijmeh.net.git
 
 RUN cd andrewnijmeh.net-rewrite-react
 
-COPY --from=build-stage /nginx.conf /etc/nginx/conf.d/default.conf
+COPY /nginx/nginx.conf /
 
 
 

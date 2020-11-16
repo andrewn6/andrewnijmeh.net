@@ -11,7 +11,13 @@ jobs:
     steps:
     - name: Setup Node
       uses: actions/setup-node@main
-  
+      
+    - name: Pull code
+    - uses: actions/checkout@master
+      with:
+        name: andrewnijmeh/andrewnijmeh.net     <-- clone https://github.com/org1/repo1
+        ref: refs/heads/release
+
     - name: Install deps for react
       run: |
         npm install
@@ -19,6 +25,7 @@ jobs:
 
     - name: Run App.js 
       run: |
+        cd src
         npm ci
         npm start
         cd
