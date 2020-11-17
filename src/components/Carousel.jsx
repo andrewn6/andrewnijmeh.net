@@ -18,7 +18,7 @@ class Carousel extends Component{
                     link: 'https://utilitybot.co',
                     selected: false
 
-                }
+                },
                 {
                     id: 1,
                     title: 'Quiz App',
