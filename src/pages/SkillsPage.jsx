@@ -12,7 +12,7 @@ class SkillsPage extends Component {
             
             frameworks: {
                 title: "Frameworks",
-                subtitle: "Here are a list of frameworks I use, React, Express, Flask, Node.js."
+                subtitle: "Here are a list of frameworks I use, React, Express, Flask, Node.js., Discord.py and Matplotlib"
             },
 
             tools: {
@@ -21,7 +21,7 @@ class SkillsPage extends Component {
             },
             softskills: {
                 title: "Soft Skills",
-                subtitle: "Here are a set of skills that I have. I have leadership, innovative and creativity."
+                subtitle: "Here are a set of skills that I have. I have leadership, innovative and creativity and inniative."
             },
 
             languages: {
