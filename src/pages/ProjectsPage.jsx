@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import Carousel from './components/Carousel';
 
-export default class ProjectsPage{
+export default class ProjectsPage extends Component{
     
 }
+
+
