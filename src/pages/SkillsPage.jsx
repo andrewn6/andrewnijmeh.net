@@ -25,8 +25,9 @@ class SkillsPage extends Component {
             },
 
             languages: {
-                title:
-            }
+                title: "Progamming Languages",
+                subtitle: "Python, Javascript, Typescript, CSS, HTML."
+            },
 
         }
     }
