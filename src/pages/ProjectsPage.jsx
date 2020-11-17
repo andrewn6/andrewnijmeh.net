@@ -9,9 +9,11 @@ class ProjectsPage extends Component{
         return(
             <div>
                 <div className="project-title">
+                    <h1>My projects</h1>
                     <div className="project-subtitle">
                         <h3>Here are a list of my projects with a link to the github repository.</h3>
                     </div>
+
                 </div>  
             </div>
 
