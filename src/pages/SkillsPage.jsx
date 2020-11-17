@@ -12,12 +12,12 @@ class SkillsPage extends Component {
             
             frameworks: {
                 title: "Frameworks",
-                subtitle: "Here are a list of frameworks I use, React, Express, Flask, Node.js., Discord.py and Matplotlib"
+                subtitle: "Here are a list of frameworks I use, React, Express, Flask, Node.js, Discord.py and Matplotlib."
             },
 
             tools: {
                 title: "Development Tools",
-                subtitle: "Here are a list of tools I use. Python, Git, Github, Visual Studio Code, Linux, Docker, Nginx, Docker-Compose"
+                subtitle: "Here are a list of tools I use. Python, Git, Github, Visual Studio Code, Linux, Docker, Nginx, Docker-Compose, Nginx-Reverse-Proxy"
             },
             softskills: {
                 title: "Soft Skills",
