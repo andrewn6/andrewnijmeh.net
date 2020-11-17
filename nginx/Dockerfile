@@ -6,11 +6,11 @@ RUN mkdir website
 
 RUN cd website
 
-RUN git pull https://github.com/andrewnijmeh/andrewnijmeh.net.git
+RUN git clone https://github.com/andrewnijmeh/andrewnijmeh.net.git
 
-RUN cd andrewnijmeh.net-rewrite-react
+RUN cd andrewnijmeh.net
 
-COPY /nginx/nginx.conf /
+COPY /nginx/etc/nginx.conf /
 
 
 
