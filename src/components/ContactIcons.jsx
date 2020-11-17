@@ -5,7 +5,7 @@ import {
     faYoutube
 } from "@Fontawesome/free-brands-svg-icons";
 
-import css from 'src/index.css';
+import css from './src/css/contact.css'
 
 function ContactIcons(props) {
     return(

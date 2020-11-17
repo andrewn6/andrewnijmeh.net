@@ -1,6 +1,6 @@
 import React from 'react';
-import Cardinfo from './components/Cardinfo';
-import css from './src/carousel.css';
+import Cardinfo from './src/css/cards.css'
+
 
 function Card(props) {
     return(
