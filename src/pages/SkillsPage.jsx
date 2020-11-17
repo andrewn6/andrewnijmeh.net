@@ -16,12 +16,16 @@ class SkillsPage extends Component {
             },
 
             tools: {
-                title: "Tools",
+                title: "Development Tools",
                 subtitle: "Here are a list of tools I use. Python, Git, Github, Visual Studio Code, Linux, Docker, Nginx, Docker-Compose"
             },
-            skills: {
-                title: "Skills",
+            softskills: {
+                title: "Soft Skills",
                 subtitle: "Here are a set of skills that I have. I have leadership, innovative and creativity."
+            },
+
+            languages: {
+                title:
             }
 
         }
