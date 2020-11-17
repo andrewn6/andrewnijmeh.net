@@ -9,9 +9,6 @@ class Error404 extends Component{
         return(
             <div>
             <img src={PageNotFound} />
-            <p style={{textAlign: "center"}}>
-                <Link to="/">Go to Home </Link>
-            </p>
 
         </div>
         );
