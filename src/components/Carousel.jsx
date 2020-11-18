@@ -56,7 +56,12 @@ class Carousel extends Component{
 }
 
 
-    render(){
+    makeItems = (items) => {
+        return items.map(item =>{
+            return <Card item={item} click={(e => this.handleCardClick(items.id, e))} key={item.id} />
+        })
+    }
+    render() {
         return(
             <Container fluid={true}>
                 <Row className="justify-content-around">
