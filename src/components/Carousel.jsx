@@ -3,7 +3,10 @@ import React from 'react';
 import Card from '../components/Card';
 
 import utilitybot from '../assets/images/utilitybot.png';
+import { render } from '@testing-library/react';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 class Carousel extends Component{
     constructor(props){
@@ -52,5 +55,15 @@ class Carousel extends Component{
         });
 }
 
+
+    render(){
+        return(
+            <Container fluid={true}>
+                <Row className="justify-content-around">
+                    {this.makeItems(this.state.items)}
+                </Row>
+            </Container>
+        );
+    }
 
 export default Carousel;
