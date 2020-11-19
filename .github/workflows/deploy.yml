@@ -8,24 +8,27 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ubuntu-latest: [20.04, 18.04]
+        node-version: [11.x, 12.x]
+
     steps:
-    - name: Setup Node
-      uses: actions/setup-node@main
-      
-    - name: Pull code
-    - uses: actions/checkout@master
+    - name: Git checkout
+      uses: actions/checkout@v1
+
+    - name: Docker build
+      uses: docker/build-push-action@v2
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
       with:
-        name: andrewnijmeh/andrewnijmeh.net     <-- clone https://github.com/org1/repo1
-        ref: refs/heads/release
+        node-version: ${{ matrix.node-version }}
 
-    - name: Install deps for react
-      run: |
-        npm install
-        cd
+    - run: npm install
 
-    - name: Run App.js 
-      run: |
-        cd src
-        npm ci
-        npm start
-        cd
+    - run: npm start
+
+    - run: docker pull docker.pkg.github.com/andrewnijmeh/andrewnijmeh.net/api:1.5.0  
+
+    - run: docker run api:1.50
