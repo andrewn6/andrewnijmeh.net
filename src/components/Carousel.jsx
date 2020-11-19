@@ -8,7 +8,7 @@ import { render } from '@testing-library/react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-class Carousel extends Component{
+class Carousel extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -61,6 +61,7 @@ class Carousel extends Component{
             return <Card item={item} click={(e => this.handleCardClick(items.id, e))} key={item.id} />
         })
     }
+    
     render(); {
         return(
             <Container fluid={true}>
@@ -70,5 +71,6 @@ class Carousel extends Component{
             </Container>
         );
     }
+    
 
 export default Carousel;
