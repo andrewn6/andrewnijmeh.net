@@ -20,12 +20,14 @@ code {
 .g-card-info {
     margin-top: 10px;
     min-height: 100px;
+    font-family: 'Roboto', sans-serif;
   }
   
   
 .g-card-title {
     font-size: 24px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
   }
   
   
