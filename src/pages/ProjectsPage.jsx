@@ -9,7 +9,7 @@ class ProjectsPage extends Component{
         return(
             <div>
                 <div className="project-title">
-
+                    <h1>My project</h1>
                 </div>
 
             </div>
