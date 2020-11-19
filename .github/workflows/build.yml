@@ -7,22 +7,23 @@ on:
 jobs:
   test:
     name: Build
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ubuntu-latest: [20.04, 18.04]
+        node-version: [10.x, 12.x]
+      
+
     steps:
-      - name: Setup NODE
-        uses: actions/setup-node@main
+    - name: Git checkout
+      uses: actions/checkout@v1
       
-      - name: Install deps for /portfolio-site
-        run: | 
-          npm install
-          cd ..
-          
-      - name: Run App.js With Node Compiler 
-        run: |
-          cd src
-          node App.js
-      
-      
-  
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
     
       
+    - run: npm install
+
+    - run: npm test
