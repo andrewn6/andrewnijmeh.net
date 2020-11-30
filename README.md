@@ -17,7 +17,6 @@ cd src
 ```
 ```npm i
 ```
-```
 npm start
 ```
 > This should start a development server of my website make sure you have node/npm installed to run this and you are set :)
