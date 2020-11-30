@@ -1,27 +1,30 @@
 .contact-icons {
     background-color: #eee;
     padding: 25px 50px;
-    border-radius: 3px
+    border-radius: 3px;
 }
 
-a.contac t{
+a.contact{
     margin: 0 1rem;
     transition: transform 0.2s;
-    display: inline-block
+    display: inline-block;
 }
 
 a.contact:hover {
-    transform: translate(-2px)
+    transform: translate(-2px);
 }
 
 .youtube-icon {
-    color: red
+    color: red;
+    border-radius: 3px;
 }
 
 .twitter-icon {
-    color: blue
+    color: blue;
+    border-radius: 3px;
 }
 
 .discord-icon {
-    color: rgb(133, 213, 240)
+    color: rgb(133, 213, 240);
+    border-radius: 3px;
 }
