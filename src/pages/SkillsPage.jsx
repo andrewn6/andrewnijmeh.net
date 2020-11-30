@@ -1,6 +1,6 @@
 import React from 'react';
 import { Component } from 'react';
-import Content from '../components/Content'
+import Content from '/components/Content/Content'
 
 import css from './src/css/skills.css'
 
