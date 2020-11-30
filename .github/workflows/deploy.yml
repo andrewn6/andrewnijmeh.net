@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ubuntu-latest: [20.04, 18.04]
-        node-version: [11.x, 12.x]
+        ubuntu-latest: [20.04]
+        node-version: [11.x]
 
     steps:
     - name: Git checkout
