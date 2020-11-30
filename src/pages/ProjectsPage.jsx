@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Carousel from '../components/Carousel';
+import Carousel from '../components//Carousel/Carousel';
 import css from '../css/projects.css';
 
 class ProjectsPage extends Component{
