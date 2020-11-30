@@ -6,8 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './App.css';
 
-import Footer from './components/Footer';
-import Content from './components/Content';
+import Footer from './components/Footer/Footer';
+import Content from './components/Content/Content';
 
 import AboutPage from './pages/About';
 import ContactPage from './pages/Contact';
